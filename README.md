@@ -6,8 +6,9 @@ Este proyecto consiste en un script de Python que realiza un escaneo de credenci
 - Python 3.x
 - Las bibliotecas `netmiko` y `paramiko`. Puedes instalarlas utilizando pip:
 
+```bash
 pip install netmiko paramiko
-
+```
 
 ## Uso
 
