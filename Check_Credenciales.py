@@ -2,7 +2,11 @@ from netmiko import ConnectHandler
 from paramiko import AuthenticationException, SSHException
 import configparser
 
-credenciales = "C:\Users\Lautaro\Code"
+#Modificar ruta, poner la ruta donde este el archivo con las credenciales
+
+# Descomentar acorde a tu sistema operativo
+# Windows # credenciales = "C:\\Users\\ljara\\Downloads\\Code\\credenciales.ini" 
+# Linux #credenciales = "/home/ljara/code/credenciales.ini"
 
 def scan_single_ip(device_ip):
     # Leer credenciales desde el archivo de configuración
