@@ -26,11 +26,10 @@ pip install netmiko paramiko
 3. Dentro del codigo "Creck_Credenciales.py edita la ruta donde tengas tu archivo "credenciales.ini"
 
 > [!IMPORTANT]
-#Modificar ruta, poner la ruta donde este el archivo con las credenciales
-
-#Descomentar acorde a tu sistema operativo
-**# Windows #** credenciales = "C:\\Users\\ljara\\Downloads\\Code\\credenciales.ini" 
-**# Linux #** credenciales = "/home/ljara/code/credenciales.ini"
+> #Modificar ruta, poner la ruta donde este el archivo con las credenciales
+> #Descomentar acorde a tu sistema operativo
+> **# Windows #** credenciales = "C:\\Users\\ljara\\Downloads\\Code\\credenciales.ini"
+> **# Linux #** credenciales = "/home/ljara/code/credenciales.ini"
 
 
 4. Ejecuta el script `scan_ssh_credentials.py`:
