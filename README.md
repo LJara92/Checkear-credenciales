@@ -23,14 +23,23 @@ pip install netmiko paramiko
   ```bash
   cd nombre_del_repositorio
   ```
+3. Dentro del codigo "Creck_Credenciales.py edita la ruta donde tengas tu archivo "credenciales.ini"
 
-3. Ejecuta el script `scan_ssh_credentials.py`:
+```bash
+#Modificar ruta, poner la ruta donde este el archivo con las credenciales
+
+# Descomentar acorde a tu sistema operativo
+**# Windows # **credenciales = "C:\\Users\\ljara\\Downloads\\Code\\credenciales.ini" 
+**# Linux #** credenciales = "/home/ljara/code/credenciales.ini"
+```
+
+4. Ejecuta el script `scan_ssh_credentials.py`:
 
   ```bash
   python scan_ssh_credentials.py
   ```
 
-4. Sigue las instrucciones del menú para seleccionar la opción deseada:
+5. Sigue las instrucciones del menú para seleccionar la opción deseada:
   - Escanear una sola IP.
   - Escanear varias IPs.
 
