@@ -26,8 +26,8 @@ pip install netmiko paramiko
 3. Dentro del codigo "Creck_Credenciales.py edita la ruta donde tengas tu archivo "credenciales.ini"
 
 > [!IMPORTANT]
+>#Modificar ruta, poner la ruta donde este el archivo con las credenciales
 
-#Modificar ruta, poner la ruta donde este el archivo con las credenciales
 ```bash
 #Descomentar acorde a tu sistema operativo
 
